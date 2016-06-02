@@ -17,6 +17,39 @@ body{
   font-weight: 300;
 }
 
+.wrapp{
+  max-width:
+}
+
 li{
   display: inline-block;
+}
+
+img {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 320px) {
+  .kontainer{
+    width: 100%;
+  }
+}
+
+@media screen and (min-width:320px) and (max-width: 550px) {
+  .kontainer{
+    width: 100%;
+  }
+}
+
+@media screen and (min-width:550px) {
+  .wrapp{
+    margin: 10% auto;
+  }
+  ul{
+    margin: 0 auto;
+    width: 100%;
+  }
+  li{
+    width: 15%;
+  }
 }
